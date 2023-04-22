@@ -12,6 +12,10 @@ const App = () => {
 
   const addItems=()=>{
     setItems((allItems)=>{
+      if(inp===""){
+        alert('Add items');
+        return allItems;
+      }
       return [...allItems, inp];
     });
     setInp("");

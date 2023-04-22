@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.main_div{
+  width: 100%;
+  height: 100vh;
+  background: rgb(239, 163, 239);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center_div{
+  width: 25%;
+  height: 80vh;
+  background-color: black;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+h1{
+  color: white;
+  background: transparent;
+  background-color: blue;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid grey;
+  outline: none;
+}
+
+button{
+  min-height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: cornflowerblue;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button .add{
+  min-height: 50px;
+  min-width: 53px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: cornflowerblue;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+  background-color: greenyellow;
+}
+
+ol{
+  margin-top: 30px;
+}
+
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .cancel{
+  min-width: 5px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  margin: 0 15px 0 35px;
+}
+ .cancel:hover{
+  background-color: crimson;
+}
+
